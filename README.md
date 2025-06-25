@@ -62,7 +62,21 @@ cd Organoid_GFP_Analysis
 * Update paths to your own brightfield and GFP images
 * Run all cells
 
----
+
+### 3. Launch with Conda or Python venv
+
+* Create the conda env with this command:
+  ```bash
+  conda env create -f environment.yml
+  conda activate organoid-env
+  ```
+* OR, create a python venv with thsi command:
+  ```bash
+  python -m venv organoid-env
+  source organoid-env/bin/activate  # or .\organoid-env\Scripts\activate on Windows
+  pip install -r requirements.txt
+  ```  
+
 
 ## Output Example
 
