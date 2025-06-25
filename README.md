@@ -131,6 +131,11 @@ For questions or suggestions, feel free to open an issue or reach out via GitHub
 
 ---
 
+## Citing the repo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15738206.svg)](https://doi.org/10.5281/zenodo.15738206)
+
+
 ## License
 
 MIT License. See `LICENSE` file for details.
