@@ -1,6 +1,6 @@
 # HPC-Organoid-Quant
 
-```markdown
+
 # 🧠 Organoid Detection and GFP Quantification
 
 This project provides a complete and modular pipeline to detect organoids from **brightfield microscopy images**, with optional quantification of **GFP-positive regions** from corresponding fluorescence images.
@@ -19,7 +19,7 @@ This project provides a complete and modular pipeline to detect organoids from *
   - Calculates mean and total GFP intensity
 - Generates annotated overlay images for visualization
 
----
+
 
 ## 🗂️ Project Structure
 
