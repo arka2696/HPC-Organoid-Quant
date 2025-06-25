@@ -77,6 +77,13 @@ cd Organoid_GFP_Analysis
   pip install -r requirements.txt
   ```  
 
+### 4. Creating a loadable `jupyter-kernel`: This is needed as if we are runing the code from jupyter lab or VS-code we need to load python kenrnel
+
+* A kernel can be created by the following command:
+  ```python
+  python -m ipykernel insatll --user --name organoid-env --display-name "organoid-env"
+  ```
+  
 
 ## Output Example
 
