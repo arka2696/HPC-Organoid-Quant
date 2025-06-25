@@ -27,7 +27,7 @@ This project provides a complete and modular pipeline to detect organoids from *
 
 Organoid\_GFP\_Analysis/
 │
-├── notebooks/
+├── Colab-Notebooks/
 │   └── organoid\_analysis.ipynb      # Main Colab notebook
 │
 ├── example\_data/
