@@ -1,11 +1,11 @@
 # HPC-Organoid-Quant
 
 
-# 🧠 Organoid Detection and GFP Quantification
+# Organoid Detection and GFP Quantification
 
 This project provides a complete and modular pipeline to detect organoids from **brightfield microscopy images**, with optional quantification of **GFP-positive regions** from corresponding fluorescence images.
 
-### ✅ Features
+### Features
 
 - Works with **brightfield-only** images or **brightfield + GFP**
 - Detects **irregular and fragmented organoids** as a **single object**
@@ -21,7 +21,7 @@ This project provides a complete and modular pipeline to detect organoids from *
 
 
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 
@@ -45,7 +45,7 @@ Organoid\_GFP\_Analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -56,7 +56,7 @@ cd Organoid_GFP_Analysis
 
 ### 2. Launch in Google Colab
 
-> 💡 Best used with Google Drive integration.
+> Best used with Google Drive integration.
 
 * Open `notebooks/organoid_analysis.ipynb`
 * Update paths to your own brightfield and GFP images
@@ -78,7 +78,7 @@ cd Organoid_GFP_Analysis
 
 ---
 
-## 🧪 Dependencies
+## Dependencies
 
 All dependencies are standard and available in Google Colab:
 
@@ -96,7 +96,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Notes
+## Notes
 
 * The script assumes images are **grayscale TIFFs**
 * If your organoids are fragmented, the pipeline includes morphological merging to treat them as one object
@@ -104,19 +104,15 @@ pip install -r requirements.txt
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions or suggestions, feel free to open an issue or reach out via GitHub.
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See `LICENSE` file for details.
 
 ```
 
----
-
-Would you like me to generate a `requirements.txt` or a `.gitignore` file next?
-```
