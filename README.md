@@ -73,7 +73,7 @@ cd Organoid_GFP_Analysis
   * 🔴 GFP+ region (if applicable)
 
 <p align="center">
-  <img src="https://your-link-to-overlay-image-if-public.png" alt="Overlay Example" width="500"/>
+  <img src="https://github.com/arka2696/HPC-Organoid-Quant/blob/main/Overlay-example.png" alt="Overlay Example" width="500"/>
 </p>
 
 ---
