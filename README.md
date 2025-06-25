@@ -64,7 +64,7 @@ cd Organoid_GFP_Analysis
 
 ---
 
-## 📊 Output Example
+## Output Example
 
 * `.csv` file with organoid measurements
 * Overlay image:
