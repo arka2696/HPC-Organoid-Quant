@@ -42,3 +42,53 @@ These metrics are only calculated if a corresponding GFP image is provided:
   * Monitoring reporter gene activity.
 
 ---
+
+### Solidity is a shape descriptor that quantifies **how convex (compact) a shape is**, defined as:
+
+$$
+\textbf{Solidity} = \frac{\text{Area}}{\text{Convex Hull Area}}
+$$
+
+---
+
+### 🔹 **Range of Solidity Values:**
+
+* **Range:** $0 < \text{Solidity} \leq 1$
+* **Interpretation:**
+
+| Solidity Value | Morphology                                         | Biological Interpretation                      |
+| -------------- | -------------------------------------------------- | ---------------------------------------------- |
+| \~**1.00**     | Perfectly convex (e.g., smooth circle or ellipse)  | Healthy, compact organoid or spheroid          |
+| **0.85–0.99**  | Slightly irregular but still fairly compact        | Minor disaggregation or blebbing               |
+| **0.6–0.85**   | Moderate irregularities, lobed or protruding shape | Potential cell migration, budding, or stress   |
+| **< 0.6**      | Highly concave or fragmented                       | Disorganized, apoptotic, or broken-up organoid |
+
+---
+
+### 🔸 **Visual Examples (if plotted):**
+
+You can visualize solidity values using overlays or color-coded metrics:
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Example
+sns.histplot(df['solidity'], bins=20, kde=True)
+plt.xlabel('Solidity')
+plt.title('Distribution of Organoid Solidity')
+plt.axvline(0.85, color='orange', linestyle='--', label='Moderate Irregularity')
+plt.axvline(0.6, color='red', linestyle='--', label='High Irregularity')
+plt.legend()
+plt.show()
+```
+
+---
+
+### 🔸 **When is Solidity Useful?**
+
+* **Quality control**: Detecting damaged or overly fragmented organoids.
+* **Phenotyping**: Identifying spreading vs. non-spreading morphologies.
+* **Drug response**: Cytotoxic agents often reduce solidity due to fragmentation.
+
+
