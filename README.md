@@ -20,6 +20,7 @@ This project provides a complete and modular pipeline to detect organoids from *
 - Generates annotated overlay images for visualization
 
 
+#### More info on the features: https://github.com/arka2696/HPC-Organoid-Quant/blob/main/FeatureExplanation.md
 
 ## Project Structure
 
