@@ -51,7 +51,7 @@ $$
 
 ---
 
-### 🔹 **Range of Solidity Values:**
+### **Range of Solidity Values:**
 
 * **Range:** $0 < \text{Solidity} \leq 1$
 * **Interpretation:**
@@ -65,7 +65,7 @@ $$
 
 ---
 
-### 🔸 **Visual Examples (if plotted):**
+### *Visual Examples (if plotted):**
 
 You can visualize solidity values using overlays or color-coded metrics:
 
@@ -85,7 +85,7 @@ plt.show()
 
 ---
 
-### 🔸 **When is Solidity Useful?**
+### **When is Solidity Useful?**
 
 * **Quality control**: Detecting damaged or overly fragmented organoids.
 * **Phenotyping**: Identifying spreading vs. non-spreading morphologies.
