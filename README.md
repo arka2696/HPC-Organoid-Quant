@@ -24,26 +24,32 @@ This project provides a complete and modular pipeline to detect organoids from *
 
 ## Project Structure
 
+#### Input folder structure:
 ```
-
-Organoid\_GFP\_Analysis/
-│
-├── Colab-Notebooks/
-│   └── organoid\_analysis.ipynb      # Main Colab notebook
-│
-├── example\_data/
-│   └── BRIGHTFIELD\_*.TIF            # Brightfield image(s)
-│   └── GFP\_*.TIF                     # GFP fluorescence (optional)
-│
-├── outputs/
-│   ├── organoid\_gfp\_analysis.csv    # Measurement results
-│   └── overlay\_output.png           # Visual overlay (organoid + GFP)
-│
-├── README.md
-└── requirements.txt (optional)
-
+Organised_files/
+└── B16 Spheroid_10% FBS/
+    └── B16_control/
+        └── B16 day 3/
+            ├── BRIGHTFIELD_16173.jpg
+            ├── BRIGHTFIELD_16174.jpg
+            └── ...
 ````
 
+#### Output folder structure:
+```
+OUTPUT/
+├── B16 Spheroid_10% FBS/
+│   └── B16_control/
+│       └── B16 day 3/
+│           ├── masks/
+│           │   ├── mask_16173.png
+│           │   └── ...
+│           └── overlays/
+│               ├── overlay_16173.png
+│               └── ...
+│
+└── organoid_gfp_analysis.csv   ← all image results combined here
+```
 ---
 
 ## Getting Started
