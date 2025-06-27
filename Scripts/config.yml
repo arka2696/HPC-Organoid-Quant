@@ -1,0 +1,11 @@
+# Root directory containing all image folders (subfolders with brightfield and optional GFP images)
+input_root: /home/arka/Desktop/Diana_Organoid_Project/Organised_files
+
+# Root directory where all outputs (CSV, overlays, masks) will be saved
+output_root: /home/arka/Desktop/Diana_Organoid_Project/OUTPUT
+
+# Set the number of threads to use for parallel processing
+threads: 16
+
+# Whether GFP images are available (set to false if not available)
+use_gfp: false
