@@ -152,7 +152,6 @@ Cite as: Arkajyoti sarkar. (2025). HPC-Organoid-Quant (v1.0.0). Zenodo. https://
 
 ## License
 
-MIT License. See `LICENSE` file for details.
+This project is licensed under the [MIT License](LICENSE).
 
-```
 
