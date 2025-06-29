@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ## Notes
 
-* The script assumes images are **grayscale TIFFs**
+* The script accepts a broad format of images
 * If your organoids are fragmented, the pipeline includes morphological merging to treat them as one object
 * GFP quantification thresholds can be adjusted in the notebook
 
