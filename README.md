@@ -142,6 +142,8 @@ For questions or suggestions, feel free to open an issue or reach out via GitHub
 
 **v1.0.0 :** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15738206.svg)](https://doi.org/10.5281/zenodo.15738206)
 
+**v1.1.0 :** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15756056.svg)](https://doi.org/10.5281/zenodo.15756059)
+
 ```bash
 Cite as: Arkajyoti sarkar. (2025). HPC-Organoid-Quant (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15738206
 ```
